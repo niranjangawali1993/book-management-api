@@ -1,0 +1,11 @@
+version: '3'
+services:
+  service-app:
+    container_name: books_management_service
+    build: './'
+    image: niranjang2/books_management_service:gke-mysql-v5
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    restart: on-failure

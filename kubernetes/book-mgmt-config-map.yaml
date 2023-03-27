@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: database-config
+  labels:
+    name: database-config
+    app: book-management
+  namespace: development
+data:
+  NODE_ENV: development
+  MYSQL_HOST: 34.100.172.182
+  MYSQL_DATABASE: book-management-db
+  MYSQL_USER: root
+  PAGE_SIZE: '10'
