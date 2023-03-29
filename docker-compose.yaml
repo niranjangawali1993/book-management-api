@@ -3,7 +3,7 @@ services:
   service-app:
     container_name: books_management_service
     build: './'
-    image: niranjang2/books_management_service:gke-mysql-v5
+    image: niranjang2/books_management_service:gke-mysql
     env_file:
       - .env
     ports:
