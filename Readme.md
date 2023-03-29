@@ -66,7 +66,8 @@ If you want to import to the POSTMAN rest client plase use this [postman.json](p
 ### To Create image from docker compose file, run following command
 
 ```
-docker-compose build
+docker build -t <username>/<image-name>:<tag> .
+
 ```
 
 ### To push the image on the docker hub use the following commands
@@ -77,11 +78,11 @@ Password:
 
 ---------------------------------------------------------------------------------------------------------------
 
-docker push <username>/books_management_service:gke-mysql
+docker push <username>/<image-name>:<tag>
 ```
 
 ### To run the newly created image locally use the follwing command
 
 ```
-docker run -d -p 5000:5000 --name books_management_service niranjang2/books_management_service:gke-mysq
+docker run -d -p 5000:5000 --name <image-name> <username>/<image-name>:<tag>
 ```
