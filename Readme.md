@@ -1,8 +1,14 @@
 # Book Management application is simple app contains CRUD APIs to GET, PUT, POST and DELETE the book
 
-## Running the application locally using following commands.
+## Running the application locally
 
-Before running it locally make sure you have created and set the content of `.env` file, please `env.sample` file for properties.
+Before running application locally make sure you have created and set the content of `.env` file, please [env.sample](./env.sample) file for properties.
+
+- To install the dependencies use the following command.
+
+  ```
+  npm install
+  ```
 
 - To Run this app use the following command.
 
