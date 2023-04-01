@@ -2,7 +2,7 @@
 
 ## Running the application locally using following commands.
 
-Before running it locally make you have set the content of `.env` file, please `env.sample` file for properties.
+Before running it locally make sure you have created and set the content of `.env` file, please `env.sample` file for properties.
 
 - To Run this app use the following command.
 
